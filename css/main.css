@@ -267,7 +267,7 @@ textarea {
 
 /* Mobile Styles - Work Area */
 
-.work {
+.work .content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -298,8 +298,8 @@ textarea {
 }
 
 .work figure {
-  max-width: 425px;
-  margin: 30px 20px;
+  max-width: 100%;
+  margin: 20px 20px;
   border: 2px solid #b2b2b2;
   display: flex;
   justify-content: center;
@@ -568,6 +568,30 @@ textarea {
         justify-content: space-between;
         padding-top: 15px;
       }
+
+    /* Work area */
+
+    .work .content-wrapper {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+    }
+
+    .work h2 {
+      font-size: 2.2rem;
+    }
+
+    .work figure {
+      max-width: 40%;
+    }
+
+    .work .project-description {
+      max-width: 50%;
+    }
+
 
   }
 
