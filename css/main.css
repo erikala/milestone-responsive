@@ -345,7 +345,7 @@ textarea {
 }
 
 .about figure {
-  max-width: 398px;
+  max-width: 90%;
   margin: 10px;
   display: flex;
   justify-content: center;
@@ -487,6 +487,11 @@ textarea {
 
       }
 
+      /* Tablet styles - About me area */
+
+      .about figure {
+        max-width: 60%;
+      }
 
       /* Tablet footer */
 
@@ -545,6 +550,57 @@ textarea {
            font-size: 2.5rem;
          }
 
+
+    /* Work area */
+
+    .work article {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .work h2 {
+      width: 90%;
+      margin-bottom: 40px;
+      font-size: 2.2rem;
+    }
+
+    .work article figure,
+    .work article div {
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+    }
+
+
+    /* About me section */
+
+    .about article {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .about h2 {
+      width: 90%;
+      margin-bottom: 40px;
+      font-size: 2.2rem;
+    }
+
+    .about article figure,
+    .about article div {
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+    }
+
+    .about h3 {
+      width: 95%;
+      margin: 0;
+    }
+
     /*Footer*/
 
       footer .content-wrapper {
@@ -568,29 +624,6 @@ textarea {
         justify-content: space-between;
         padding-top: 15px;
       }
-
-    /* Work area */
-
-    .work .content-wrapper {
-      width: 80%;
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-      flex-wrap: wrap;
-
-    }
-
-    .work h2 {
-      font-size: 2.2rem;
-    }
-
-    .work figure {
-      max-width: 40%;
-    }
-
-    .work .project-description {
-      max-width: 50%;
-    }
 
 
   }
