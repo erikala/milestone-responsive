@@ -544,12 +544,12 @@ footer {
          /*Header*/
 
          header h1 {
-           font-size: 2.5rem;
-           padding-top: 12px;
+           font-size: 2.4rem;
+           padding-top: 10px;
          }
 
          header h2 {
-           font-size: 1.5rem;
+           font-size: 1.4rem;
            padding-top: 0;
          }
 
@@ -572,6 +572,7 @@ footer {
     .work .content-wrapper {
       width: 75%;
       margin-left: 100px;
+      margin-bottom: 40px;
     }
 
     .work article {
@@ -591,8 +592,8 @@ footer {
     }
 
     .work article figure {
-      width: 40%;
-      margin: 0;
+      width: 60%;
+      margin-left: 50px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -601,7 +602,7 @@ footer {
 
     .work article div {
       width: 60%;
-      padding: 10px 10px;
+      padding-left: 80px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -612,20 +613,29 @@ footer {
 
     /* About me section */
 
+    .about .content-wrapper {
+      width: 80%;
+    }
+
     .about article {
       display: flex;
       justify-content: space-between;
+      align-items: center;
     }
 
     .about h2 {
       width: 90%;
-      margin-bottom: 40px;
+      margin-bottom: 50px;
       font-size: 2.2rem;
     }
 
-    .about article figure,
+    .about article figure {
+      max-width: 400px;
+    }
+
     .about article div {
-      width: 100%;
+      width: 70%;
+      margin-left: 0
       display: flex;
       justify-content: center;
       align-items: center;
@@ -643,6 +653,11 @@ footer {
         width: 50%;
       }
 
+      footer h2 {
+        font-size: 2.2rem;
+        padding-bottom: 20px;
+      }
+
       footer h3 {
         font-size: 1.3rem;
       }
@@ -652,7 +667,7 @@ footer {
       }
 
       footer p a {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
       }
 
       footer .social ul {
