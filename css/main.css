@@ -472,27 +472,32 @@ footer {
       /* Tablet work area */
 
       .work .content-wrapper {
-        width: 80%;
+        width: 70%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         margin-left: 100px;
+        margin-bottom: 30px;
+      }
+
+      .work article {
+        margin-left: 50px;
       }
 
       .work h2 {
-        font-size: 2rem;
+        font-size: 2.1rem;
       }
 
       .work figure {
-        max-width: 80%;
+        max-width: 70%;
 
       }
 
       /* Tablet styles - About me area */
 
       .about .content-wrapper {
-        width: 85%;
+        width: 75%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -500,11 +505,17 @@ footer {
       }
 
       .about h2 {
-        font-size: 2rem;
+        font-size: 2.1rem;
+      }
+
+      .about h3 {
+        text-align: center;
+        padding-top: 15px;
       }
 
       .about figure {
-        max-width: 50%;
+        max-width: 60%;
+        margin-left: 100px;
         display: flex;
         justify-content: center;
       }
@@ -520,7 +531,7 @@ footer {
         }
 
         footer h3 {
-          font-size: 1.5rem;
+          font-size: 1.3rem;
         }
 
         footer a {
