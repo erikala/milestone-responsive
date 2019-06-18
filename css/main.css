@@ -569,7 +569,7 @@ footer {
            text-align: left;
            text-indent: 250px;
            padding-top: 140px;
-           font-size: 2.5rem;
+           font-size: 2.3rem;
          }
 
 
@@ -594,16 +594,17 @@ footer {
 
     .work h2 {
       width: 90%;
-      margin-bottom: 50px;
+      margin-bottom: 30px;
       font-size: 2.2rem;
     }
 
     .work h3 {
       width: 90%;
+      margin: 30px 20px;
     }
 
     .work article figure {
-      width: 60%;
+      width: 70%;
       margin-left: 50px;
       display: flex;
       justify-content: center;
@@ -612,7 +613,7 @@ footer {
     }
 
     .work article div {
-      width: 60%;
+      width: 70%;
       padding-left: 80px;
       display: flex;
       justify-content: center;
@@ -642,11 +643,12 @@ footer {
 
     .about article figure {
       max-width: 400px;
+      margin: 0;
     }
 
     .about article div {
       width: 70%;
-      margin-left: 0
+      margin-left: 30px;
       display: flex;
       justify-content: center;
       align-items: center;
